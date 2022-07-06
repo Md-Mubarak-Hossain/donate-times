@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.flexible-container {
+    width: 100%;
+    height: 580px;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+
+
+}
+
+
+
+.header {
+    background-image: url(images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+    color: aliceblue;
+}
+
+.header-size {
+    padding: 2% 25%;
+}
+
+.donate-today {
+    display: flex;
+    padding: 2% 25%;
+}
+
+#donate-today {
+    padding: 2% 25%;
+}
+
+.tk-button {
+    font-size: 30px;
+    font-weight: 900;
+    width: 110px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: rgb(251, 249, 249);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tk-button {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    width: 110px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: rgb(245, 203, 199);
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+
+
+
+#input-txt-border {
+    border-bottom-style: grey;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-bottom: 40px;
+    font-size: 15px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.donate-button {
+    background-image: linear-gradient(rgba(215, 28, 28, 0.856), rgba(236, 45, 64, 0.92));
+    padding: 14px 25px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+#donate-plan {
+
+    padding: 2% 25% 0% 25%;
+    height: 110px;
+}
+
+.donate-plan {
+    display: flex;
+    width: 90%;
+    height: 340px;
+    margin: 110px 180px;
+
+}
+
+
+
+#food {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    background-position: 20px 50px;
+    background-color: rgb(238, 244, 242);
+}
+
+#shelter {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    background-position: 20px 50px;
+    background-color: rgb(252, 243, 232);
+}
+
+#education {
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    background-position: 20px 50px;
+    background-color: rgb(251, 237, 221);
+}
+
+.family {
+    width: 25%;
+    margin: 0px 8px 20px 8px;
+
+    border-radius: 5px;
+    padding: 100px 0px 0px 20px;
+
+}
+
+
+.form {
+    padding: 1% 25%;
+    text-align: center;
+}
+
+#form {
+    background-color: rgb(253, 235, 213);
+    margin: 30px 300px;
+    height: 150px;
+
+}
+
+#form-padding {
+    padding: 50px 60px;
+    font-size: 0px;
+
+}
+
+#type-email {
+    background-color: gainsboro;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    border-radius: 5px 0px 0px 5px;
+    border-style: none;
+    font-size: 17px;
+
+}
+
+#subscribe-button {
+    font-size: 17px;
+    color: white;
+    background-color: rgb(250, 94, 94);
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    border-radius: 0px 5px 5px 0px;
+    border-style: none;
+}
+
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 1);
+    height: 130px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+footer span {
+    color: coral;
+}
